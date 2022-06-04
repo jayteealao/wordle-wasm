@@ -36,7 +36,12 @@
 				"mutantdino.resourcemonitor",
 				"matklad.rust-analyzer",
 				"tamasfe.even-better-toml",
-				"serayuzgur.crates"
+				"serayuzgur.crates",
+				"ecmel.vscode-html-css",
+				"formulahendry.auto-rename-tag",
+				"formulahendry.auto-close-tag",
+				"rust-lang.rust",
+				"Swellaby.rust-pack"
 			]
 		}
 	},
