@@ -42,7 +42,16 @@
 				"formulahendry.auto-close-tag",
 				"rust-lang.rust",
 				"Swellaby.rust-pack",
-				"dtsvet.vscode-wasm"
+				"dtsvet.vscode-wasm",
+				"bradlc.vscode-tailwindcss",
+				"bungcip.better-toml",
+				"dsznajder.es7-react-js-snippets",
+				"GitHub.copilot",
+				"eamodio.gitlens",
+				"abusaidm.html-snippets",
+				"eg2.vscode-npm-script",
+				"christian-kohler.npm-intellisense",
+				"ms-vscode.vscode-typescript-tslint-plugin"
 			]
 		}
 	},
