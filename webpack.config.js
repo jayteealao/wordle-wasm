@@ -21,10 +21,21 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-        },
+        // use: {
+        //   loader: "babel-loader",
+        // },
+        use: [
+          "babel-loader",
+        ]
       },
+      {
+        test: /\.(css)$/,
+        use: [
+          "style-loader",
+          "css-loader",
+          "postcss-loader",            
+        ]
+      }
     ],
   },
   plugins: [
