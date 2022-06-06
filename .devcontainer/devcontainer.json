@@ -41,7 +41,8 @@
 				"formulahendry.auto-rename-tag",
 				"formulahendry.auto-close-tag",
 				"rust-lang.rust",
-				"Swellaby.rust-pack"
+				"Swellaby.rust-pack",
+				"dtsvet.vscode-wasm"
 			]
 		}
 	},
@@ -50,7 +51,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "rustc --version",
+	"postCreateCommand": "rustup target add wasm32-unknown-unknown; cargo install wasm-pack",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
